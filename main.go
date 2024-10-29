@@ -14,6 +14,8 @@ func main() {
 		log.Fatalf("Error loading todo.yml: %v", err)
 	}
 
+	fmt.Println("What are we doing today ?")
+
 	fmt.Println("High Priority Tasks:")
 	for _, task := range todo.High {
 		fmt.Println("-", task.Title)
