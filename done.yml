@@ -1,0 +1,13 @@
+- title: "Initial project setup"
+  deleted_at: "2024-10-20T10:30:00"
+  importance: "medium"
+  subtasks:
+    - title: "Initialize Git repository"
+      deleted_at: "2024-10-20T09:00:00"
+    - title: "Set up basic folder structure"
+      deleted_at: "2024-10-20T09:30:00"
+
+- title: "Install dependencies"
+  deleted_at: "2024-10-21T15:45:00"
+  importance: "low"
+  subtasks: []
