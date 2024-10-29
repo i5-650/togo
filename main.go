@@ -18,17 +18,17 @@ func main() {
 
 	fmt.Println("High Priority Tasks:")
 	for _, task := range todo.High {
-		fmt.Println("-", task.Title)
+		fmt.Printf(utils.Red+"- %s\n"+utils.Reset, task.Title)
 	}
 
 	fmt.Println("Medium Priority Tasks:")
 	for _, task := range todo.Medium {
-		fmt.Println("-", task.Title)
+		fmt.Printf(utils.Yellow+"- %s\n"+utils.Reset, task.Title)
 	}
 
 	fmt.Println("Low Priority Tasks:")
 	for _, task := range todo.Low {
-		fmt.Println("-", task.Title)
+		fmt.Printf(utils.Green+"- %s\n"+utils.Reset, task.Title)
 	}
 }
 
