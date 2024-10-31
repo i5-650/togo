@@ -1,14 +1,10 @@
 package models
 
 type Task struct {
-	Title    string    `yaml:"title"`
-	Deadline string    `yaml:"deadline"`
-	Subtasks []Subtask `yaml:"subtasks,omitempty"`
-}
-
-type Subtask struct {
-	Title    string `yaml:"title"`
-	Deadline string `yaml:"deadline"`
+	Title    string  `yaml:"title"`
+	Deadline string  `yaml:"deadline"`
+	Done     bool    `yaml:"done"`
+	Subtasks []*Task `yaml:"subtasks,omitempty"`
 }
 
 type Todo struct {
