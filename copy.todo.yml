@@ -1,0 +1,59 @@
+high:
+  - title: "Finish terminal todo app"
+    deadline: "2024-11-10"
+    done: false
+    subtasks:
+      - title: "Set up basic Go project structure"
+        deadline: "2024-11-01"
+        done: false
+      - title: "Implement YAML file handling"
+        deadline: "2024-11-03"
+        done: true
+      - title: "Create CLI for adding tasks"
+        deadline: "2024-11-05"
+        done: false
+      - title: "Test command handling"
+        deadline: "2024-11-08"
+        done: false
+
+medium:
+  - title: "Research Go libraries for parsing dates"
+    deadline: "2024-11-15"
+    done: false
+    subtasks:
+      - title: "Evaluate different libraries"
+        deadline: "2024-11-12"
+        done: false
+      - title: "Test library compatibility with togo app"
+        deadline: "2024-11-13"
+        done: false
+        subtasks:
+          - title: "that is a sub-sub-task"
+            deadline: "2024-11-12"
+            done: false
+          - title: "that is a sub-sub-task AGAIN"
+            deadline: "2024-11-13"
+            done: true
+
+  - title: "Plan features for version 2.0"
+    deadline: "2024-11-20"
+    done: false
+    subtasks:
+      - title: "List potential features"
+        deadline: "2024-11-18"
+        done: false
+      - title: "Research existing CLI apps for inspiration"
+        deadline: "2024-11-19"
+        done: true
+
+low:
+  - title: "Clean up code and refactor"
+    deadline: "2024-11-25"
+    done: false
+    subtasks:
+      - title: "Review Go code standards"
+        deadline: "2024-11-23"
+        done: false
+      - title: "Refactor main functions"
+        deadline: "2024-11-24"
+        done: true

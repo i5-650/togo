@@ -8,7 +8,7 @@ type Task struct {
 }
 
 type Todo struct {
-	High   []Task `yaml:"high"`
-	Medium []Task `yaml:"medium"`
-	Low    []Task `yaml:"low"`
+	High   []*Task `yaml:"high"`
+	Medium []*Task `yaml:"medium"`
+	Low    []*Task `yaml:"low"`
 }
